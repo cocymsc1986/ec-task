@@ -1,0 +1,28 @@
+{
+  "name": "ec-task",
+  "version": "1.0.0",
+  "description": "Node server to consume EC api",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest ./src",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-env": "^7.22.9",
+    "@types/jest": "^29.5.3",
+    "axios": "^1.4.0",
+    "babel-jest": "^29.6.2",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "ts-jest": "^29.1.1"
+  },
+  "devDependencies": {
+    "jest": "^29.6.2",
+    "nock": "^13.3.2",
+    "typescript": "^5.1.6"
+  }
+}
